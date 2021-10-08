@@ -1,0 +1,1034 @@
+@font-face {
+    font-family: "PT Sans Narrow" ;
+    src: url(fonts/PTSansNarrow-Regular.ttf);
+}
+@font-face {
+    font-family: "Sulphur Point";
+    src: url(fonts/SulphurPoint-Regular.ttf); 
+}
+@font-face {
+    font-family: "Mplus 1p";
+    src: url(fonts/MPLUS1p-Regular.ttf);
+}
+@font-face {
+    font-family: "Prata";
+    src: url(fonts/Prata-Regular.ttf);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.rectangle1Desk{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 293.97px;
+    height: 274px;
+    z-index: 1;
+}
+.rectangle2Desk{
+    position: absolute;
+    top: 181px;
+    left: 605.51px;
+    z-index: 1;
+}
+.rectangle7Desk{
+    position: absolute;
+    top: 420px;
+    left: 9.28px;
+    z-index: 1;
+}
+.rectangle8Desk{
+    position: absolute;
+    top: 0px;
+    left: 565.47px;
+    z-index: 1;
+}
+.rectangle9Desk{
+    position: absolute;
+    top: 59px;
+    left: 1146.57px;
+    z-index: 1;
+}
+.rectangle11Desk{
+    position: absolute;
+    top: 675px;
+    left: 998.12px;
+    z-index: 1;
+}
+.rectangle14Desk{
+    position: absolute;
+    top: 864.33px;
+    left: 99.81px;
+    z-index: 1;
+}
+.rectangle15Desk{
+    position: absolute;
+    top: 1305px;
+    left: 997.61px;
+    z-index: 1;
+}
+.rectangle16Desk{
+    position: absolute;
+    top: 2896px;
+    left: 110.01px;
+    z-index: 1;
+}
+.rectangle17Desk{
+    position: absolute;
+    top: 3685px;
+    left: 149.29px;
+    z-index: 1;
+}
+.rectangle18Desk{
+    position: absolute;
+    top: 3117px;
+    left: 622.12px;
+    z-index: 1;
+}
+.rectangle19Desk{
+    position: absolute;
+    top: 4481px;
+    left: 1101.84px;
+    z-index: 1;
+}
+.rectangle192Desk{
+    position: absolute;
+    top: 4711px;
+    left: 0px;
+    z-index: 1;
+}
+.vector8Desk{
+    position: absolute;
+    top: 636.5px;
+    left: 77.3px;
+    z-index: 1;
+}
+.vector9Desk{
+    position: absolute;
+    top: 1034.5px;
+    left: 250.02px;
+    z-index: 1;
+}
+.vector10Desk{
+    position: absolute;
+    top: 1508px;
+    left: 401.89px;
+    z-index: 1;
+}
+.vector11Desk{
+    position: absolute;
+    top: 3095.5px;
+    left: 153.99px;
+    z-index: 1;
+}
+.vector12Desk{
+    position: absolute;
+    top: 3805.5px;
+    left: 373.56px;
+    z-index: 1;
+}
+.substractDesk{
+    position: absolute;
+    z-index: 2;
+}
+.header{
+    position: relative;
+    left: 661px;
+    width: 633px;
+    margin-top: 30px;
+    font-family: "PT Sans Narrow";
+    font-size: 20px;
+    line-height: 25.88px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 3;
+}
+.rectangle5Desk{
+    position: absolute;
+    z-index: 2;
+    top:39px;
+    left:1214px;
+    width: 103px;
+    height: 49px;
+    box-shadow: 5px 15px 20px -10px green;
+}
+.titleBlock{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.titleText{
+    position: relative;
+    width: 560px;
+    z-index: 3;
+    margin-top: 180px;
+}
+.textTamwyle{
+    font-family: "PT Sans Narrow" ;
+    font-size: 28px;
+    line-height: 36.23px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0px;
+    color: #398495;
+}
+.teamWeb{
+    font-family: "Sulphur Point", "PT Sans Narrow";
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px;
+}
+.afterWeb{
+    font-family: "Sulphur Point", "PT Sans Narrow";
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px;
+}
+.portfolio{
+    position: absolute;
+    top: -7px;
+    left: 240px;
+    font-family: "Mplus 1p";
+    font-weight: 400;
+    font-style: normal;
+    size: 16px;
+    z-index: 3;
+}
+.order{
+    position: absolute;
+    top: -7px;
+    left: 20px;
+    font-family: "Mplus 1p";
+    font-weight: 400;
+    font-style: normal;
+    size: 16px;
+    color:white;
+    z-index: 3;
+}
+.orderButtons{
+    position: relative;
+    z-index: 3;
+    margin-top: 60px;
+    font-size: 16px;
+}
+.orderButton{
+    box-shadow: -6px 14px 20px -10px green;
+}
+.titleSocials{
+    position: relative;
+    top:-10px;
+}
+.titleImageBlock{
+    position: relative;
+    z-index: 3;
+    margin-top: 60px;
+    margin-left: 70px;
+}
+.aboutUsText{
+    position: relative;
+    z-index: 3;
+    padding-top:100px;
+    font-family: "PT Sans Narrow";
+    font-style: normal;
+    font-weight: 400;
+}
+.aboutUsPictures{
+    position: relative;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+}
+.memoBoy19{
+    position:relative;
+    z-index: 3;
+}
+.memoPanel{
+    width: 490px;
+    display: flex;
+    flex-direction: row;
+}
+.memoText{
+    position: relative;
+    font-family: "PT Sans Narrow";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31px;
+    z-index: 3;
+    margin-left: 20px;
+}
+.memoTitle{
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.servicesText{
+    position: relative;
+    z-index: 3;
+    font-family: "PT Sans Narrow";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 62px;
+}
+.greenmark{
+    list-style-image: url(images/Rectangle\ 20.png);
+    margin: 20px;   
+    position: relative;
+    margin-bottom: 12px;
+}
+.bluemark{
+    list-style-image: url(images/Rectangle\ 26.png);   
+    left: -35px;
+    position: relative;
+    margin: 20px;
+}
+.servicesBlock{
+    position: relative;
+    font-family: "PT Sans Narrow";
+    font-weight: 400;
+    line-height: 40px;
+    font-style: normal;
+    font-size: 24px;
+    z-index: 3;
+}
+.rebrandTitle{
+    font-size: 36px;
+    margin: 0px;
+    position:relative;
+    color: #398495;
+}
+.creatingTitle{
+    font-size: 36px;
+    margin: 0px;
+    position:relative;
+}
+.rebrand{
+    position: relative;
+    display: flex;
+}
+.creatingSite{
+    display: flex;
+}
+.orderButtons1{
+    position: relative;
+    z-index: 3;
+    font-size: 16px;
+}
+.orderButtons2{
+    position: relative;
+    z-index: 3;
+    font-size: 16px;
+}
+.orderButtonBlue{
+    box-shadow: -6px 14px 20px -10px #398495;
+}
+.layoutOrder{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: "PT Sans Narrow";
+    font-weight: 400;
+    line-height: 26px;
+    z-index: 2;
+}
+.layoutInnerText{
+    position: relative;
+    width: 600px;
+    height: 254px;
+}
+.orderHead{
+    position:absolute;
+    z-index: 3;
+    left: 25.48px;
+    top:0px;
+    color: white;
+    margin-top: 30px;
+}
+.orderText{
+    position: absolute;
+    z-index: 3;
+    left: 25.48px;
+    top:60px;
+    color: white;
+}
+.orderWhite{
+    position: absolute;
+    top:185px;
+    left:25.48px;
+    z-index: 3;
+    box-shadow: -6px 14px 20px -10px white;
+}
+.orderLayout{
+    position: absolute;
+    top: 185px;
+    left: 45px;
+    font-family: "Mplus 1p";
+    font-weight: 400;
+    font-style: normal;
+    size: 16px;
+    z-index: 3;
+}
+.ourTeam{
+    position: relative;
+    font-family: "PT Sans Narrow";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 62px;
+    z-index: 3;
+}
+.ourTeamProfile{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 3;
+}
+.profileText{
+    position: relative;
+    width: 371px;
+    height: 440px;
+    font-family: "PT Sans Narrow";
+    font-style: normal;
+    font-weight: 400;   
+}
+.profileName{
+    font-size: 42px;
+    line-height: 54.35px;
+    margin: 0px;
+}
+.profilePosition{
+    font-size: 32px;
+    line-height: 41.41px;
+    color: #398495;
+    margin: 0px;
+}
+.profileInfo{
+    font-size: 28px;
+    line-height: 36.23px;
+    margin-top: 10px;
+}
+.portfolio1{
+    position: relative;
+    font-family: "PT Sans Narrow";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 62px;  
+    z-index: 3;  
+}
+.logoPortfolio{
+    position: relative;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+}
+.logoPortfolioText{
+    position: absolute;
+    font-family: "PT Sans Narrow";
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    z-index: 3;
+}
+.blockWyle{
+    font-family: "PT Sans Narrow";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+.titleWyle{
+    font-size: 42px;
+    margin: 0px;
+    margin-top: 10px;
+}
+.textWyle{
+    font-size: 28px;
+    margin: 0px;
+    margin-top: 15px;
+}
+.portfolioDesign{
+    position: relative;
+    z-index: 3;
+}
+.samwyle{
+    display: flex;
+    flex-direction: row;
+
+}
+.tamwyle{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.contactsCloud{
+    position: relative;
+    z-index: 3;
+    font-family: "PT Sans Narrow";
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 54px;
+}
+.footesLinks{
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    font-family: "PT Sans Narrow";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+}
+.footerTitleText{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.footerText{
+    margin: 0px;
+    margin-top: 5px;
+}
+.copyright{
+    color: #398495;
+    font-size: 16px;
+    margin: 0px;
+    margin-top: 15px;
+}
+.copyright1{
+    color: #398495;
+    font-size: 16px;
+    margin: 0px;
+    margin-top: 40px;
+}
+.vector13Mobile{
+    position: absolute;
+    height: 500px;
+    width: 339.44px;
+    left: 55.42px;
+    top: 110.5px;  
+    z-index: 2;
+}
+.rectangle14Mobile{
+    position: absolute;
+    height: 162.98px;
+    width: 186.09px;
+    left: 18px;
+    top: 572.86px;
+    border-radius: 900px;
+    z-index: 1;
+}
+.vector14Mobile{
+    position: absolute;
+    /* height: 252px;
+    width: 200.67px; */
+    left: 159px;
+    top: 690.5px;  
+    z-index: 2;
+}
+.rectangle182Mobile{
+    position: absolute;
+    top: 897.42px;
+    left: 211.69px;
+}
+.vector15Mobile{
+    position: absolute;
+    top: 1024px;
+    left: 35.9px;
+}
+.vector16Mobile{
+    position: absolute;
+    top: 2956.5px;
+    left: 33.7px;
+}
+.rectangle183Mobile{
+    position: absolute;
+    top:2822.27px;
+    left:40px;
+}
+.rectangle184Mobile{
+    position: absolute;
+    top: 3552px;
+    left: 204px;
+}
+.rectangle201Mobile{
+    position: absolute;
+    top:4959px;
+    left:-10px;
+}
+.rectangle19Mobile{
+    position: absolute;
+    top:4800px;
+    left:181px;
+}
+.rectangle1Mobile{
+    position: absolute;
+    /* width: 385px; */
+    height: 389,47px;
+    /* left: 211.53px; */
+    /* top:  -273.32px; */
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+@media (max-width: 414px) {
+    html{
+        width: 414px;
+    }
+    .backgroundDesktop,.header,.rectangle5,.titleSocials,.group61,.group60,.rectangle29Desk,.footerTeam,.footerAboutUs,.copyright,.titleImages{
+        display: none;
+    }
+    .backgroundMobile,.group62,.group622,.rectangle29Mobile,.copyright1{
+        display: inherit;
+    }
+    .teamWeb{
+        font-size: 48px;
+        line-height: 48px;
+    }
+    .afterWeb{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .aboutUsPictures{
+        font-size: 36px;
+        line-height: 46.58px;
+        overflow: hidden;
+    }
+    .memoTitle{
+        font-size: 24px;
+        line-height: 31.06px;
+    }
+    .memoText{
+        font-size: 18px;
+        line-height: 23.29px;
+    }
+    .memoBoy19{
+        width: 129px;
+        height: 129px;
+    }
+    .servicesText{  /* Блок делать надо, вместе с облачком */
+        font-size: 36px;
+        line-height: 46.58px;
+        padding-left: 223px;
+        padding-top:20px;
+    }
+    .creatingTitle{
+        font-size: 36px;
+        line-height: 46.58px;
+        left:40px;
+        width: 283px;
+    }
+    .rebrandTitle{
+        font-size: 36px;
+        line-height: 46.58px;
+    }
+    .servicesBlock{
+        font-size: 16px;
+        line-height: 40px;
+        margin-top: 60px;
+        margin-left: 20px;
+    }
+    .layoutOrder{
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .layoutInnerText{
+        width: 360px;
+        height: 254px;
+    }
+    .orderHead{
+        font-size: 36px;
+        line-height: 46.58px;
+    }
+    .orderText{
+        font-size: 16px;
+        line-height: 20.7px;
+    }
+    .ourTeam{   
+        font-size: 36px;
+        line-height: 46.58px;
+        margin-top: 120px;
+        margin-left: 50px;
+    }
+    .profileInfo{
+        align-items: center;
+        font-size: 24px;
+        line-height: 31.06px;
+    }
+    .portfolio1{ 
+        font-size: 36px;
+        line-height: 46.58px;
+        margin-top: 110px;
+        margin-left: 220px;
+    }
+    .logoPortfolioText{
+        font-size: 32px;
+        line-height: 41.41px;
+        margin-top: 60px;
+    }
+    .samwyle{
+        flex-direction: column;
+    }
+    .tamwyle{
+        flex-direction: column;
+    }
+    .titleWyle{
+        font-size: 36px;
+        line-height: 46.58px;
+    }
+    .textWyle{
+        font-size: 24px;
+        line-height: 31.06px;
+    }
+    .contactsCloud{ 
+        font-size: 36px;
+        line-height: 46.58px;
+    }
+    .footesLinks{
+        flex-direction: column;
+        margin-left: -30px;
+        margin-top: 100px;
+        text-align: center;
+    }
+    .rectangle278-1{
+        width: 360px;
+        height: 254px;
+        position: relative;
+        margin-top:20px
+    }
+    .rectangle278{
+        width: 360px;
+        height: 254px;
+    }
+    .ourTeamProfile{
+        flex-direction: column;
+        width: 414px;
+        height: 440px;
+        margin-top: 150px;
+        margin-left: 0px;
+    }
+    .arrowLeft{
+        display: none;
+    }
+    .arrowRight{
+        display: none;
+    }
+    .group13{
+        width: 227px;
+        height: 232px;
+    }
+    .profileText{
+        margin-top: 0px;
+        text-align: center;
+        width:360px;
+    }
+    .rebrand{
+        margin-left: 0px;
+        flex-direction: column;
+        justify-content: left;
+    }
+    .creatingSite{
+        margin-left: 0px;
+        flex-direction: column;
+        justify-content: left;
+    }
+    .orderButtons1{
+        margin-left:0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .greenmark{
+        margin-top: 0px;
+        left:-35px;
+    }
+    .bluemark{
+        margin-top: 0px;
+    }
+    .orderButtons2{
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+    .rebrandTitle{
+        margin-top:5px;
+        margin-left: 100px;
+    }
+    .aboutUsText{
+        font-size: 36px;
+        line-height: 46.58px;
+    }
+    .titleText{
+        margin-left:20px;
+    }
+    .aboutUsText{
+        padding-left: 70px;
+    }
+    .memoBoy19{
+        margin-left:40px;
+    }
+    .memoText{
+        width: 190px;
+    }
+    .quote{
+        position: absolute;
+        top: -20px;
+        left: 0px;
+        color:white;
+        text-shadow: rgb(88, 224, 202) 0 0 2px;
+        font-family: "Prata";
+        font-size: 144px;
+        line-height: 36px;
+        transform: rotate(-180deg);
+        z-index: 1;
+    }
+    .substractDesk{
+        left: 191.53px;
+        top: 39.08px;
+    }
+    .blockWyle{
+        width: 360px;
+        margin-left: 0px;
+    }
+    .portfolioDesign{
+        margin-top: 30px;
+        margin-left: 20px ;
+    }
+    .contactsCloud{
+        margin-top: 90px;
+        margin-left: 210px;
+    }
+    .socialLinks{
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .footerLogo{
+        margin-left: 0px;
+    }
+}
+@media (min-width: 415px) {
+    html{
+        width: 1440px;
+    }
+    .backgroundDesktop,.group60,.group61,.rectangle29Desk,.copyright{
+        display: inherit;
+    }
+    .backgroundMobile,.group62,.group622,.rectangle29Mobile,.copyright1{
+        display: none;
+    }
+    .header,.rectangle5{
+        display:flex;
+    }
+    .titleSocials{
+        display:initial;
+    }
+    .teamWeb{
+        font-size: 72px;
+        line-height: 72px;
+    }
+    .afterWeb{
+        font-size: 38px;
+        line-height: 32px;
+    }
+    .titleImages{
+        display: inherit;
+
+    }
+    .aboutUsPictures{ 
+        font-size: 48px;
+        line-height: 62.11px;
+    }
+    .memoTitle{
+        font-size: 28px;
+        line-height: 36.23px;
+    }
+    .memoText{
+        font-size: 24px;
+        line-height: 31.06px;
+    }
+    .memoBoy19{
+        width: 203px;
+        height: 203px;
+    }
+    .servicesText{  
+        font-size: 48px;
+        line-height: 62.11px;
+        padding-left: 1050px;
+        padding-top:60px;
+    }
+    .creatingTitle{
+        font-size: 42px;
+        line-height: 54.35px;
+        left:66px;
+        margin-bottom: 0px; 
+        margin-top: 0px;
+    }
+    .rebrandTitle{
+        font-size: 42px;
+        line-height: 54.35px;
+    }
+    .layoutOrder{
+        flex-direction: row;
+    }
+    .layoutInnerText{
+        width: 600px;
+        height: 254px;
+    }
+    .orderHead{
+        font-size: 42px;
+        line-height: 54.35px;
+    }
+    .orderText{
+        font-size: 20px;
+        line-height: 25.88px;
+    }
+    .ourTeam{   
+        font-size: 48px;
+        line-height: 62.11px;
+        margin-top: 100px;
+        margin-left: 150px;
+    }
+    .profileInfo{
+        align-items: left;
+        font-size: 28px;
+        line-height: 36.23px;
+    }
+    .portfolio1{ 
+        font-size: 48px;
+        line-height: 62.11px;
+        margin-top: 140px;
+        margin-left: 170px;
+    }
+    .logoPortfolioText{
+        font-size: 42px;
+        line-height: 54.35px;
+        margin-top: 70px;
+    }
+    .samwyle{
+        flex-direction: row;
+    }
+    .tamwyle{
+        flex-direction: row;
+    }
+    .titleWyle{
+        font-size: 42px;
+        line-height: 54.35px;
+    }
+    .textWyle{
+        font-size: 28px;
+        line-height: 36.23px;
+    }
+    .contactsCloud{ 
+        font-size: 48px;
+        line-height: 62.11px;
+    }
+    .footesLinks{
+        flex-direction: row;
+        margin-top: 140px;
+    }
+    .rectangle278-1{
+        width: 650px;
+        height: 254px;
+        position: relative;
+        margin-top:0px
+    }
+    .rectangle278{
+        width: 650px;
+        height: 254px;
+    }
+    .ourTeamProfile{
+        flex-direction: row;
+        width: 1100px;
+        height: 440px;
+        margin-top: 160px;
+        margin-left: 115px;
+    }
+    .arrowLeft{
+        display: inherit;
+    }
+    .arrowRight{
+        display: inherit;
+    }
+    .rebrand{
+        margin-left: 150px;
+        margin-top: 60px;
+        margin-bottom: 20px;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+    }
+    .creatingSite{
+        margin-left: 100px;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .orderButtons1{
+        margin-left:50px;
+    }
+    .greenmark{
+        left:28px;
+    }
+    .orderButtons2{
+        margin-top: 0px;
+        margin-bottom: 60px;
+    }
+    .rebrandTitle{
+        margin-top:0px;
+    }
+    .servicesBlock{
+        margin-top: 140px;
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .aboutUsText{
+        font-size: 48px;
+        line-height: 62.11px;
+    }
+    .titleText{
+        margin-left:40px;
+    }
+    .aboutUsText{
+        padding-left: 150px;
+    }
+    .memoBoy19{
+        margin-left:60px;
+    }
+    .profileText{
+        margin-top: 80px;
+    }
+    .quote{
+        color:white;
+        text-shadow: rgb(88, 224, 202) 0 0 2px;
+        font-family: "Prata";
+        font-size: 248px;
+        line-height: 36px;
+        transform: rotate(-180deg);
+        z-index: 1;
+        margin-top: 80px;
+    }
+    .substractDesk{
+        top: 52px;
+        left: 102px;
+    }
+    .blockWyle{
+        width: 726px;
+        margin-left: 80px;
+    }
+    .portfolioDesign{
+        margin-top: 30px;
+        margin-left: 100px ;
+    }
+    .contactsCloud{
+        margin-left: 1150px;
+    }
+    .socialLinks{
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+    .footerLogo{
+        margin-left: 25px;
+    }
+}
